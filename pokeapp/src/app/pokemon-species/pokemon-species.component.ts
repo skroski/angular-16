@@ -1,8 +1,7 @@
-import { PokemonSpecies } from './../pokemon-species';
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
-
+import { PokemonSpecies } from './../pokemon-species';
 @Component({
   selector: 'app-pokemon-species',
   standalone: true,
